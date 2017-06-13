@@ -4,11 +4,13 @@ import styled from 'styled-components';
 import pic from './profile.jpg';
 
 const defaultSize = 100;
-const Rounded = styled.img`
+const RoundedImage = styled.img`
   box-shadow: 0 0 8px rgba(0, 0, 0, .6);
   height: ${props => props.size || defaultSize}px;
   width: ${props => props.size || defaultSize}px;
   border-radius: ${props => (props.size || defaultSize) / 2}px;
+  user-drag: none; 
+  user-select: none;
 `;
 
 const Emoji = styled.span`
@@ -39,7 +41,7 @@ const Link = styled.a`
 
 const Profile = () => (
   <div>
-    <Rounded src={pic} size={200} alt="Sebastian Vera picture" />
+    <RoundedImage src={pic} size={200} alt="Sebastian Vera picture" />
     <Title>Sebastián Vera</Title>
     <Text>
       Fullstack Developer that{' '}
