@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import pic from './profile.jpg';
+import pic from "./profile.jpg";
 
 const defaultSize = 100;
 const RoundedImage = styled.img`
@@ -9,7 +9,7 @@ const RoundedImage = styled.img`
   height: ${props => props.size || defaultSize}px;
   width: ${props => props.size || defaultSize}px;
   border-radius: ${props => (props.size || defaultSize) / 2}px;
-  user-drag: none; 
+  user-drag: none;
   user-select: none;
 `;
 
@@ -30,26 +30,17 @@ const Text = styled.p`
   font-family: 'Raleway', sans-serif;
 `;
 
-const Link = styled.a`
-  color: #47BA89;
-  text-decoration: none;
-
-  &:hover {
-    color: #5AC195;
-  }
-`;
-
-const Profile = () => (
+const Profile = () =>
   <div>
     <RoundedImage src={pic} size={200} alt="Sebastian Vera picture" />
     <Title>Sebastián Vera</Title>
     <Text>
-      Fullstack Developer that{' '}
+      Fullstack Developer that{" "}
       <Emoji role="img" aria-label="love">💚</Emoji>
-      {' '}
-      react, golang and nodejs. I'm currently looking for a job in either Germany or remote.
+      {" "}
+      react, golang and nodejs. I'm currently looking for a job in either
+      Germany or remote.
     </Text>
-  </div>
-);
+  </div>;
 
 export default Profile;
