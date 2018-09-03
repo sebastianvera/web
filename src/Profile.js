@@ -47,9 +47,7 @@ const Profile = () => (
       Fullstack Developer that{' '}
       <Emoji role="img" aria-label="love">💚</Emoji>
       {' '}
-      react and golang. I'm currently working at{' '}
-      <Link href="https://www.globant.com/">Globant</Link>
-      {' '}as Web UI Developer.
+      react, golang and nodejs. I'm currently looking for a job in either Germany or remote.
     </Text>
   </div>
 );
