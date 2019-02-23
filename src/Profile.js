@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import pic from "./profile.jpg";
+import pic from './profile.jpg';
 
 const defaultSize = 100;
 const RoundedImage = styled.img`
@@ -11,6 +11,11 @@ const RoundedImage = styled.img`
   border-radius: ${props => (props.size || defaultSize) / 2}px;
   user-drag: none;
   user-select: none;
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  color: orange;
 `;
 
 const Emoji = styled.span`
@@ -35,11 +40,12 @@ const Profile = () =>
     <RoundedImage src={pic} size={200} alt="Sebastian Vera picture" />
     <Title>Sebastián Vera</Title>
     <Text>
-      Fullstack Developer that{" "}
+      Fullstack Developer that{' '}
       <Emoji role="img" aria-label="love">💚</Emoji>
-      {" "}
-      react, golang and nodejs. I'm currently looking for a job in either
-      Germany or remote.
+      {' '}
+      react, golang and nodejs. I'm currently working as a Backend Developer at
+      {' '}
+      <Link href="https://twitter.com/ShareIq">@Shareiq</Link>.
     </Text>
   </div>;
 
