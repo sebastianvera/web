@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://sebastianvera.github.com/web",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "styled-components": "^2.0.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "prettier": "^1.4.4",
-    "react-scripts": "1.0.7"
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.19.1",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,5 +20,17 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
