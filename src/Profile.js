@@ -43,9 +43,9 @@ const Profile = () =>
       Fullstack Developer that{' '}
       <Emoji role="img" aria-label="love">💚</Emoji>
       {' '}
-      react, golang and nodejs. I'm currently working as a Backend Developer at
+      react, golang and nodejs. I'm currently working as a Full Stack Developer at
       {' '}
-      <Link href="https://twitter.com/ShareIq">@Shareiq</Link>.
+      <Link href="https://twitter.com/Cision">@Cision</Link>.
     </Text>
   </div>;
 
