@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://sebastianvera.github.com/web",
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "styled-components": "^4.4.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.19.1",
-    "react-scripts": "3.2.0"
+    "gh-pages": "^2.2.0",
+    "prettier": "^2.0.5",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
