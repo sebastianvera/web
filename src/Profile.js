@@ -18,11 +18,6 @@ const Link = styled.a`
   color: orange;
 `;
 
-const Emoji = styled.span`
-  font-size: 1em;
-  text-align: center;
-`;
-
 const Title = styled.h1`
   text-align: center;
   color: #fafbfb;
@@ -50,9 +45,9 @@ const Profile = () => (
     <Title>Sebastián Vera</Title>
     <Text>
       Fullstack Developer that{' '}
-      <Emoji role="img" aria-label="love">
+      <span role="img" style="font-size: 1em; text-align: center;" aria-label="love">
         💚
-      </Emoji>{' '}
+      </span>{' '}
       react, golang and nodejs. I'm currently working as a Software Engineer
       at <Link href="https://twitter.com/google">@Google</Link>.
     </Text>
