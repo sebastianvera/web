@@ -53,8 +53,8 @@ const Profile = () => (
       <Emoji role="img" aria-label="love">
         💚
       </Emoji>{' '}
-      react, golang and nodejs. I'm currently working as a Full Stack Developer
-      at <Link href="https://twitter.com/Cision">@Cision</Link>.
+      react, golang and nodejs. I'm currently working as a Software Engineer
+      at <Link href="https://twitter.com/google">@Google</Link>.
     </Text>
     <Footer>
       Visit my blog at{' '}
