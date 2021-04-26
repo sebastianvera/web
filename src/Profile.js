@@ -45,7 +45,7 @@ const Profile = () => (
     <Title>Sebastián Vera</Title>
     <Text>
       Fullstack Developer that{' '}
-      <span role="img" style="font-size: 1em; text-align: center;" aria-label="love">
+      <span role="img" style={{fontSize: '1em', textAlign: 'center'}} aria-label="love">
         💚
       </span>{' '}
       react, golang and nodejs. I'm currently working as a Software Engineer
